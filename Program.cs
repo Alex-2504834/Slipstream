@@ -1,6 +1,6 @@
 using Photino.Blazor;
 
-namespace DesktopApp;
+namespace Slipstream;
 
 internal static class Program
 {
@@ -11,7 +11,7 @@ internal static class Program
         builder.RootComponents.Add<App>("#app");
 
         builder.ConfigureMainWindow(window => {
-            window.SetTitle("DesktopApp")
+            window.SetTitle("Slipstream")
                   .SetSize(1000, 700)
                   .SetDevToolsEnabled(true);
             }
